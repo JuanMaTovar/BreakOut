@@ -1,0 +1,539 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1701996546401240, "dur": 3133309, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701996546401945, "dur": 9386, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701996546411334, "dur": 74874, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701996546486212, "dur": 2750120, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701996549236334, "dur": 289137, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701996549525476, "dur": 9071, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701996549535929, "dur": 26, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1701996548456356, "dur": 743332, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701996548458835, "dur": 134985, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701996549149986, "dur": 15047, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701996549165042, "dur": 34551, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701996549166906, "dur": 28054, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701996549210826, "dur": 4698, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701996549209011, "dur": 6582, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701996549536291, "dur": 483, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1701996549324569, "dur":2336, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549326926, "dur":123, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1701996549327087, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1701996549327133, "dur":1370, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1701996549328568, "dur":1560, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549330128, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508139, "dur":349, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508489, "dur":216, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508706, "dur":19, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508725, "dur":48, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508773, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508780, "dur":43, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508823, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508828, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508843, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508847, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508859, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508862, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508873, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508876, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508889, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508892, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508902, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508905, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508916, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508920, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508930, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508934, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508945, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508949, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508961, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549508981, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549509008, "dur":2344, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1701996549329804, "dur":543, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549330347, "dur":12410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549342758, "dur":2028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1701996549344793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549350769, "dur":11215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1701996549362077, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1701996549362334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549362348, "dur":14462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1701996549377374, "dur":7198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549384581, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549384596, "dur":19163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549403839, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549404052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549404064, "dur":9929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549414065, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549414586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549414596, "dur":10325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549425008, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549425381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549425396, "dur":6966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549432463, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549433093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549433104, "dur":6188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549439382, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549439814, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549439830, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549445728, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549446034, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549446048, "dur":5108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549451247, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549451667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549451679, "dur":9667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549461472, "dur":1703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549463182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549463196, "dur":5521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701996549469791, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1701996549469874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701996549469884, "dur":5669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1701996549475636, "dur":32521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549328366, "dur":1796, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549330175, "dur":12554, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549342756, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1701996549342771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549346228, "dur":809, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1701996549347043, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1701996549347155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549347516, "dur":9072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1701996549356591, "dur":2761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701996549359357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549359369, "dur":14857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701996549374312, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549374593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549381221, "dur":7450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549388780, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549389444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549389458, "dur":11575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549401230, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549401680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549401691, "dur":9401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549411277, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549411509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549411523, "dur":11125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549422791, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549423065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549423078, "dur":9022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549432302, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549432550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549432561, "dur":11862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549444510, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549444886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549444899, "dur":12125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549457170, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549457451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549457464, "dur":12822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701996549470667, "dur":906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701996549471580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701996549471592, "dur":4574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701996549476280, "dur":31819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549328569, "dur":1620, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549330190, "dur":13770, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549343961, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1701996549344396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549359764, "dur":7359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1701996549367236, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1701996549367512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549373479, "dur":16237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1701996549389807, "dur":632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549390446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549390459, "dur":11036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549401568, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549401790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549401803, "dur":8979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549410902, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549411343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549411360, "dur":20448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549431901, "dur":903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549432812, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549432826, "dur":8996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549442192, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549442824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549442838, "dur":6072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549449015, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549449732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549449745, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549454215, "dur":6818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549461041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549461055, "dur":6746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701996549467900, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1701996549468169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701996549468180, "dur":5345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1701996549473604, "dur":34499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701996549328847, "dur":1384, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701996549330231, "dur":13037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701996549343269, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1701996549343521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701996549350298, "dur":11712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1701996549362142, "dur":52168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701996549414317, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701996549414463, "dur":14408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701996549430025, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701996549430282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701996549430293, "dur":4686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701996549435065, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701996549435638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701996549435693, "dur":7610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701996549443434, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701996549443652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701996549443665, "dur":6977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701996549453909, "dur":1964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701996549455882, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701996549455899, "dur":18532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701996549474623, "dur":33471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549328931, "dur":1315, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549330246, "dur":12503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549342758, "dur":2256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1701996549345022, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549351203, "dur":4866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1701996549356156, "dur":2128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1701996549358291, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549358350, "dur":17506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1701996549375936, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549376206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549381637, "dur":13543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549395289, "dur":2916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549398213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549398227, "dur":7773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549406100, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549406451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549406466, "dur":7089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549413645, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549413877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549413891, "dur":4647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549418630, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549419243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549419256, "dur":10568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549429921, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549430208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549430219, "dur":5904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549436205, "dur":1077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549437288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549437301, "dur":7732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549445119, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549445381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549445394, "dur":5318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549450796, "dur":1946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549452750, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549452763, "dur":5009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549457861, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549458483, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549458498, "dur":4923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549463506, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549463718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549463734, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701996549467298, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1701996549467395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701996549467407, "dur":6229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1701996549473720, "dur":34393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549329200, "dur":1065, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549330266, "dur":13242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549343510, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1701996549343847, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549351613, "dur":10434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1701996549362135, "dur":3709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549365853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549367508, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549370621, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549371275, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549374807, "dur":5226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549380119, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549380625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549383337, "dur":11726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549395137, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549395457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549395471, "dur":4972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549400550, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549401056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549401068, "dur":8372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549409527, "dur":832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549410368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549410382, "dur":4242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549414704, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549414977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549414989, "dur":8401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549423474, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549423860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549423875, "dur":5691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549429645, "dur":643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549430293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549430306, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549433789, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549434049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549434088, "dur":8036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549442295, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549442537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549442551, "dur":4199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549446825, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549447180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549447193, "dur":5453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549452732, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549452991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549453002, "dur":9089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549462167, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549462518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549462532, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701996549465374, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1701996549465466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549465599, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1701996549468658, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701996549468745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701996549468757, "dur":3600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701996549472437, "dur":35679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701996549329306, "dur":973, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701996549330280, "dur":13190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701996549343471, "dur":928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1701996549344407, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701996549352135, "dur":10272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1701996549362498, "dur":123186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701996549485693, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701996549485712, "dur":22228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701996549508002, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1701996549508006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549329438, "dur":861, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549330299, "dur":13066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549343366, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1701996549343598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549352163, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1701996549355733, "dur":1856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1701996549357599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549357882, "dur":11677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1701996549369644, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549370243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549375275, "dur":7244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549382696, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549382935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549382983, "dur":8610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549391668, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549391906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549391920, "dur":7014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549399013, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549399268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549399282, "dur":3332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549402740, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549403134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549403148, "dur":8137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549411373, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549411790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549411803, "dur":4582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549416464, "dur":914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549417383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549417393, "dur":11768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549429243, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549429780, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549429796, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549432871, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549433198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549433209, "dur":6990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549440311, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549441095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549441109, "dur":3886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549445075, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549445414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549445424, "dur":5885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549451390, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549451782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549451795, "dur":5729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549457634, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549458096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549458147, "dur":4530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549462757, "dur":9486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549472249, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701996549472269, "dur":7000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701996549479343, "dur":28916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549329546, "dur":767, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549330314, "dur":12476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549342791, "dur":1534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1701996549344332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549350403, "dur":4420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1701996549354911, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1701996549355201, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549356099, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1701996549358906, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1701996549359248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549359263, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1701996549362506, "dur":6474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1701996549368988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549369001, "dur":3794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1701996549372876, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549373111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549375164, "dur":6494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549381758, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549382079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549382093, "dur":8928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549391143, "dur":1181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549392364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549392378, "dur":8096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549400549, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549400853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549400867, "dur":6797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549407742, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549407976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549407990, "dur":6060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549414123, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549414356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549414368, "dur":6899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549421358, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549421579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549421594, "dur":4131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549425810, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549426044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549426057, "dur":4208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549430341, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549430556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549430567, "dur":6017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549436664, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549437011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549437025, "dur":5737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549442849, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549443055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549443072, "dur":4177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549447376, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549447778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549447792, "dur":3984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549452154, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549452688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549452701, "dur":4447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549457223, "dur":2384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549459615, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549459630, "dur":4026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701996549463729, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1701996549463900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549465048, "dur":2328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1701996549467466, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1701996549467558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549467572, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1701996549470968, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1701996549471042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701996549471054, "dur":3938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1701996549475084, "dur":33083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549329657, "dur":675, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549330333, "dur":12426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549342760, "dur":1092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1701996549343859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549351695, "dur":12852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1701996549364636, "dur":1412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut.exe" }}
+,{ "pid":12345, "tid":10, "ts":1701996549366055, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549366068, "dur":8346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut.exe" }}
+,{ "pid":12345, "tid":10, "ts":1701996549374540, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549375111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549380904, "dur":5772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549387620, "dur":1889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549389519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549389536, "dur":13455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549403200, "dur":709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549403915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549404017, "dur":7336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549411458, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549411847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549411860, "dur":5546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549417487, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549417813, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549417826, "dur":11731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549429648, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549429885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549429900, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549433513, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549433786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549433797, "dur":9012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549442922, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549443198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549443211, "dur":4484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549447770, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549448158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549448170, "dur":3821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549452067, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549452289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549452301, "dur":15405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701996549467795, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1701996549468035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549468047, "dur":4214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1701996549472356, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1701996549472666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701996549472675, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1701996549475858, "dur":32249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549329767, "dur":599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549330367, "dur":12387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549342756, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1701996549343405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549349830, "dur":7792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1701996549357732, "dur":1431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1701996549359171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549359187, "dur":9548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1701996549368828, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549369156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549374917, "dur":5925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549381026, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549381451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549385936, "dur":11624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549397866, "dur":837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549398712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549398726, "dur":11133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549409932, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549410164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549410177, "dur":7656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549417913, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549418659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549418672, "dur":11799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549430542, "dur":931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549431481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549431494, "dur":4059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549435641, "dur":842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549436491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549436506, "dur":6756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549443333, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549443671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549443683, "dur":6022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549449787, "dur":747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549450542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549450556, "dur":6279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549456920, "dur":4166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549461093, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549461108, "dur":8384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701996549469574, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1701996549469656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701996549469666, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1701996549474840, "dur":33270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549328715, "dur":1494, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549330210, "dur":13652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549343863, "dur":1056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1701996549344924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549351164, "dur":21350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1701996549372604, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549372878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549375066, "dur":7923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549383081, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549383293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549383304, "dur":13046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549396487, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549397199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549397210, "dur":9287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549406931, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549407249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549407263, "dur":9232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549416664, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549417298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549417312, "dur":12480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549429904, "dur":2513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549432423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549432434, "dur":8260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549441161, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549441364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549441377, "dur":5844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549447478, "dur":5776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549453262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549453274, "dur":9827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549463195, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549464088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549464099, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701996549468712, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1701996549469072, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701996549469087, "dur":6583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Juan Tovar/Desktop/Breackout/BreakOut_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1701996549475752, "dur":32390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701996549513295, "dur":3154, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1701996549536914, "dur": 1574, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701996549535904, "dur": 2649, "ph": "X", "name": "Write chrome-trace events", "args": {} },
